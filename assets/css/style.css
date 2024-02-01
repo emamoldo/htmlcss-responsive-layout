@@ -8,16 +8,37 @@
     --resp-head-btn: #FFFF;
     --resp-head-btn-text: #7c7c7d;
     --resp-head-text: #c4e3ff;
-    --resp-jumbo-bgc: #fefffeFF;
+    --resp-jumbo-demo: #b5dcfe;
+    --resp-jumbo-demo-title: #2a99fc;
     --resp-jumbo-text: #6c8598;
+    --resp-jumbo-btn: #0184fc;
     --resp-main-bgc: #9693e4FF;
     --resp-main-btn: #9693e4FF;
     --resp-free-text: #fdc15fFF;
     --resp-footer: #333232FF;
 }
 
+/* Utilitys */
+
+.col-4{
+    width: calc((100% / 12) * 8);    
+}
+.col-8{
+    width: calc((100% / 12) * 8);    
+}
+
+.col-12{
+    width: 100%;
+}
+
+.fa{
+    color: var(--resp-head-btn);
+}
+/* /Utilitys */
+
+
 /* Header */
-.container{
+.container_header{
     background-color: var(--resp-head-bgc);
 }
 
@@ -25,7 +46,7 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    width: 900px;
+    width: 80%;
     margin: 0 auto;
 }
 
@@ -47,3 +68,58 @@
     align-items: center;
     gap: 1rem;
 }
+
+/* /Header */
+
+
+/* 1st Part Main */
+.container_demo{
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    
+    box-sizing: border-box;
+    border: 1px dashed;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -1rem;
+}
+
+
+/* /1st Part Main */
+
+
+/* Header Media Mobile*/
+@media screen and (max-width: 768px){
+    .logo{
+        
+    }
+    .logo_n_btn{
+        display: none;
+    }   
+    .fa{
+        color: white;
+    }
+}
+/* /Header Media Mobile*/
+
+
+/* Header  edia Tablet*/
+@media screen and (max-width: 992px){
+    .logo_n_btn{
+        display: none;
+    }   
+}
+/* /Header Media Tablet*/
+
+
+/* Header Media Desktop*/
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    .fa{
+        display: none;
+    }
+}
+/* /Header Media Desktop*/
