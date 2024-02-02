@@ -22,6 +22,7 @@
 
 .fa{
     color: var(--resp-head-btn);
+    font-size: 30px;
 }
 /* /Utilitys */
 
@@ -82,7 +83,83 @@
     margin: 0 auto;
 }
 
+.demo_title{
+    color: var(--resp-jumbo-demo-title);
+    font-size: 25px;
+}
+
+.demo_text{
+    display: flex;
+    flex-wrap: wrap;
+    color: var(--resp-jumbo-text);
+}
+
+.download{
+    display: flex;
+    color: var(--resp-head-btn);
+    background-color: var(--resp-jumbo-btn);
+    border: none;
+    border-radius: 20px;
+    height: 20px;
+    align-items: center;
+}
+
+.phone{
+    height: 200px;
+    display: flex;
+}
+
 /* /1st Part Main */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* Header Media Mobile*/
