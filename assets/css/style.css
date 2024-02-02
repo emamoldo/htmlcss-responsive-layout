@@ -19,6 +19,17 @@
 }
 
 /* Utilitys */
+.title {
+    color: var(--resp-jumbo-demo-title);
+    font-size: 25px;
+}
+
+.text {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    color: var(--resp-jumbo-text);
+}
 
 .fa {
     color: var(--resp-head-btn);
@@ -26,6 +37,13 @@
 }
 
 .col-sm-12{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.col-md-12{
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -45,6 +63,7 @@
     justify-content: space-around;
     width: 80%;
     margin: 0 auto;
+    margin-bottom: 50px;
 
     box-sizing: border-box;
     border: 1px dashed;
@@ -68,15 +87,14 @@
     align-items: center;
     gap: 1rem;
 }
-
 /* /Header */
 
 
 /* 1st Part Main */
-.container_demo {
+.container{
     width: 80%;
     margin: auto;
-    margin-top: 50px;
+    margin-top: 20px;
     background-color: var(--resp-jumbo-demo);
     border-radius: 20px;
     /* --> da cambiare, guarda recap della lezione */
@@ -89,18 +107,6 @@
     display: flex;
     flex-wrap: wrap;
     margin: 0 auto;
-}
-
-.demo_title {
-    color: var(--resp-jumbo-demo-title);
-    font-size: 25px;
-}
-
-.demo_text {
-    display: flex;
-    flex-wrap: wrap;
-    text-align: center;
-    color: var(--resp-jumbo-text);
 }
 
 .download {
@@ -119,6 +125,10 @@
 }
 
 /* /1st Part Main */
+
+/* 2nd Main Part */
+
+/* /2nd Main Part */
 
 
 
@@ -211,7 +221,7 @@
 
 /* Header Media Desktop*/
 @media screen and (min-width: 1200px) {
-    .fa {
+    .fa{
         display: none;
     }
 
