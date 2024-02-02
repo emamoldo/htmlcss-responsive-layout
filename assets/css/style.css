@@ -163,6 +163,7 @@
     border-radius: 20px; /* --> da cambiare, guarda recap della lezione */
     text-align: center;
     gap: 2rem;
+    margin-bottom: 50px;
 }
 
 .strat2_title{
@@ -178,58 +179,50 @@
     width: 15%;
     margin-bottom: 20px;
 }
+
+.container_testimonials{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+#testimonials{
+    margin-top: 50px;
+    font-size: 25px;
+}
+
+.testimonials_title{
+    color: var(--resp-main-btn);
+    font-size: 40px;
+    text-align: center;
+}
+
+.nat, .celia, .bob{
+    width: 80%;
+    background-color: var(--resp-main-bgc);
+    border-radius: 20px; /* --> da cambiare, guarda recap della lezione */
+}
+
+.testim1{
+    height: 100px;
+    margin-top: 20px;
+    border-radius: 50%; /* --> da cambiare, guarda recap della lezione */
+}
+
+.testim1_text, .name{
+    color: var(--resp-head-btn);
+    text-align: center;
+}
+
+
+
+
+
+
 /* /2nd Main Part */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* Header Media Mobile*/
 @media screen and (min-width: 375px) {
