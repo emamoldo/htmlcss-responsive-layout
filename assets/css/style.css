@@ -395,8 +395,31 @@
     margin-bottom: 50px;
 }
 
+.privacy{
+    margin-bottom: 50px;
+}
 /* /Get Started Part */
 /* /3rd Main Part */
+
+/* Footer */
+.container_footer{
+    width: 100%;
+    background-color: var(--resp-footer);
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.footer{
+}
+
+.footer_text{
+    color: var(--resp-head-btn);
+}
+
+
+
 /* Header Media Mobile*/
 @media screen and (min-width: 375px) {
     .header {
