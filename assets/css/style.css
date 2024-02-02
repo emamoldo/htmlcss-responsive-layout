@@ -261,6 +261,8 @@
     margin-top: 50px;
     margin-bottom: 50px;
     background-color: var(--resp-main-bgc);
+    box-sizing: border-box;
+    border: 1px dashed;
 }
 
 .benefits_title{
@@ -278,6 +280,9 @@
     gap: 2rem;
     margin-bottom: 30px;
     border-radius: 20px; /* --> da cambiare, guarda recap della lezione */
+
+    box-sizing: border-box;
+    border: 1px dashed;
 }
 
 .number{
@@ -299,9 +304,50 @@
     height: 30px;
 }
 /* /Benefits Part */
-
 /* /2nd Main Part */
 
+/* 3rd Main Part */
+.container_about{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+    box-sizing: border-box;
+    border: 1px dashed;
+}
+
+.about_title{
+    color: var(--resp-main-bgc);
+    font-size: 40px;
+}
+
+.about_text{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.about_img{
+    width: 100px;
+    border-radius: 50%;
+}
+
+.img_text{
+    color: var(--resp-main-bgc);
+    font-size: 35px;
+}
+
+.linkedin{
+    width: 50%;
+    background-color: var(--resp-main-bgc);
+    color: var(--resp-head-btn);
+    border: none;
+    border-radius: 20px; /* --> da cambiare, guarda recap della lezione */
+    height: 40px;
+    margin-bottom: 50px;
+}
+/* /3rd Main Part */
 /* Header Media Mobile*/
 @media screen and (min-width: 375px) {
     .header {
