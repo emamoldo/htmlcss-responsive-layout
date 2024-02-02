@@ -35,7 +35,9 @@
     color: var(--resp-head-btn);
     font-size: 30px;
 }
+/* /Utilitys */
 
+/* Col */
 .col-sm-12{
     display: flex;
     align-items: center;
@@ -49,7 +51,7 @@
     flex-direction: column;
     gap: 1rem;
 }
-/* /Utilitys */
+/* /Col */
 
 
 /* Header */
@@ -96,8 +98,7 @@
     margin: auto;
     margin-top: 20px;
     background-color: var(--resp-jumbo-demo);
-    border-radius: 20px;
-    /* --> da cambiare, guarda recap della lezione */
+    border-radius: 20px; /* --> da cambiare, guarda recap della lezione */
 
     box-sizing: border-box;
     border: 1px dashed;
@@ -124,10 +125,59 @@
     display: flex;
 }
 
+#branding{
+    padding-bottom: 70px;
+}
 /* /1st Part Main */
 
 /* 2nd Main Part */
+.container_strategic{
+    background-color: var(--resp-main-bgc);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+}
 
+.str_title{
+    font-size: 25px;
+}
+
+.strategic1, .strategic2{
+    width: 80%;
+    height: 300px;
+}
+
+.str_title, .str_text, .strategic1, .strategic2 {
+    margin-left: 2rem;
+}
+
+.container_strat2{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    align-items: center;
+    background-color: #FFFF;
+    border-radius: 20px; /* --> da cambiare, guarda recap della lezione */
+    text-align: center;
+    gap: 2rem;
+}
+
+.strat2_title{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+}
+
+.arrow_down{
+    background-color: var(--resp-main-bgc);
+    border: none;
+    border-radius: 20px; /* --> da cambiare, guarda recap della lezione */
+    width: 15%;
+    margin-bottom: 20px;
+}
 /* /2nd Main Part */
 
 
