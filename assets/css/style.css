@@ -38,6 +38,16 @@
 /* /Utilitys */
 
 /* Col */
+[class^="col-"]
+{
+  padding: 1rem;
+}
+
+.col-sm-6{
+    width: calc((100% / 12) * 12);
+}
+
+/* da mettere in media
 .col-sm-12{
     display: flex;
     align-items: center;
@@ -51,6 +61,8 @@
     flex-direction: column;
     gap: 1rem;
 }
+                            */
+
 /* /Col */
 
 
@@ -130,7 +142,10 @@
 }
 /* /1st Part Main */
 
+
 /* 2nd Main Part */
+
+/* Strategic Part */
 .container_strategic{
     background-color: var(--resp-main-bgc);
     width: 100%;
@@ -138,6 +153,9 @@
     justify-content: center;
     flex-direction: column;
     gap: 2rem;
+
+    box-sizing: border-box;
+    border: 1px dashed;
 }
 
 .str_title{
@@ -164,6 +182,9 @@
     text-align: center;
     gap: 2rem;
     margin-bottom: 50px;
+
+    box-sizing: border-box;
+    border: 1px dashed;
 }
 
 .strat2_title{
@@ -179,7 +200,10 @@
     width: 15%;
     margin-bottom: 20px;
 }
+/* /Strategic Part */
 
+
+/* Testimonial Part */
 .container_testimonials{
     width: 100%;
     display: flex;
@@ -187,6 +211,9 @@
     text-align: center;
     flex-direction: column;
     gap: 2rem;
+
+    box-sizing: border-box;
+    border: 1px dashed;
 }
 
 #testimonials{
@@ -204,12 +231,18 @@
     width: 80%;
     background-color: var(--resp-main-bgc);
     border-radius: 20px; /* --> da cambiare, guarda recap della lezione */
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+    box-sizing: border-box;
+    border: 1px dashed;
 }
 
 .testim1{
-    height: 100px;
+    width: 50%;
     margin-top: 20px;
-    border-radius: 50%; /* --> da cambiare, guarda recap della lezione */
+    border-radius: 25%; /* --> da cambiare, guarda recap della lezione */
 }
 
 .testim1_text, .name{
@@ -217,10 +250,55 @@
     text-align: center;
 }
 
+.name{
+    margin-bottom: 20px;
+}
+/* /Testimonial Part */
 
 
+/* Benefits Part */
+.container_benefits{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: var(--resp-main-bgc);
+}
 
+.benefits_title{
+    text-align: center;
+    color: var(--resp-head-btn);
+    font-size: 40px;
+    margin-bottom: 50px;
+}
 
+.col-sm-6{
+    width: 80%;
+    margin: auto;
+    background-color: var(--resp-head-btn);
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 30px;
+    border-radius: 20px; /* --> da cambiare, guarda recap della lezione */
+}
+
+.number{
+    font-size: 50px;
+    color: var(--resp-main-bgc);
+}
+
+.hight_title{
+    font-size: 25px;
+    color: var(--resp-main-bgc);
+}
+
+.more{
+    width: 30%;
+    background-color: var(--resp-main-bgc);
+    color: var(--resp-head-btn);
+    border: none;
+    border-radius: 20px; /* --> da cambiare, guarda recap della lezione */
+    height: 30px;
+}
+/* /Benefits Part */
 
 /* /2nd Main Part */
 
@@ -235,8 +313,10 @@
         display: none;
     }
 
-    .fa {
-        color: white;
+    .col-sm-6{
+        display: flex;
+        flex-direction: column;
+
     }
 }
 
