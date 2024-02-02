@@ -1,9 +1,9 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-:root{
+:root {
     --resp-head-bgc: #0185fdFF;
     --resp-head-btn: #FFFF;
     --resp-head-btn-text: #7c7c7d;
@@ -20,19 +20,26 @@
 
 /* Utilitys */
 
-.fa{
+.fa {
     color: var(--resp-head-btn);
     font-size: 30px;
+}
+
+.col-sm-12{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
 }
 /* /Utilitys */
 
 
 /* Header */
-.container_header{
+.container_header {
     background-color: var(--resp-head-bgc);
 }
 
-.header{
+.header {
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -43,11 +50,11 @@
     border: 1px dashed;
 }
 
-.logo_text{
+.logo_text {
     color: var(--resp-head-text);
 }
 
-.head_btn{
+.head_btn {
     color: var(--resp-head-btn-text);
     background-color: var(--resp-head-btn);
     margin: 10px;
@@ -56,7 +63,7 @@
     border: none;
 }
 
-.logo_n_btn{
+.logo_n_btn {
     display: flex;
     align-items: center;
     gap: 1rem;
@@ -66,35 +73,37 @@
 
 
 /* 1st Part Main */
-.container_demo{
+.container_demo {
     width: 80%;
     margin: auto;
     margin-top: 50px;
     background-color: var(--resp-jumbo-demo);
-    border-radius: 20px; /* --> da cambiare, guarda recap della lezione */
+    border-radius: 20px;
+    /* --> da cambiare, guarda recap della lezione */
 
     box-sizing: border-box;
     border: 1px dashed;
 }
 
-.row{
+.row {
     display: flex;
     flex-wrap: wrap;
     margin: 0 auto;
 }
 
-.demo_title{
+.demo_title {
     color: var(--resp-jumbo-demo-title);
     font-size: 25px;
 }
 
-.demo_text{
+.demo_text {
     display: flex;
     flex-wrap: wrap;
+    text-align: center;
     color: var(--resp-jumbo-text);
 }
 
-.download{
+.download {
     display: flex;
     color: var(--resp-head-btn);
     background-color: var(--resp-jumbo-btn);
@@ -104,7 +113,7 @@
     align-items: center;
 }
 
-.phone{
+.phone {
     height: 200px;
     display: flex;
 }
@@ -163,44 +172,52 @@
 
 
 /* Header Media Mobile*/
-@media screen and (min-width: 375px){
-    .header{
+@media screen and (min-width: 375px) {
+    .header {
         display: flex;
         justify-content: space-between;
     }
-    .logo_n_btn{
+
+    .logo_n_btn {
         display: none;
-    }   
-    .fa{
+    }
+
+    .fa {
         color: white;
     }
 }
+
 /* /Header Media Mobile*/
 
 
 /* Header  edia Tablet*/
-@media screen and (min-width: 768px){
-    .header{
+@media screen and (min-width: 768px) {
+    .header {
         display: flex;
         justify-content: space-between;
     }
-    .logo_n_btn{
+
+    .logo_n_btn {
         display: none;
-    }   
-    .fa{
+    }
+
+    .fa {
         color: white;
     }
 }
+
 /* /Header Media Tablet*/
 
 
 /* Header Media Desktop*/
-@media screen and (min-width: 1200px){
-    .fa{
+@media screen and (min-width: 1200px) {
+    .fa {
         display: none;
     }
-    .logo_n_btn{
+
+    .logo_n_btn {
         display: flex;
     }
 }
+
 /* /Header Media Desktop*/
